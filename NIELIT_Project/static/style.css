@@ -1,0 +1,43 @@
+
+body{
+    background-color:brown;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    padding: 150px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+h1{
+    font-size: 75px;
+    color: antiquewhite;
+}
+h3{
+    color:aliceblue;
+    font-size: 30px;
+}
+p{
+    color:aliceblue;
+}
+button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+th{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
