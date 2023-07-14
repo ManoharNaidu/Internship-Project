@@ -6,6 +6,17 @@
     <title>Create</title>
 </head>
 <body>
-    
+    <form action="/createEmployee" method="POST">
+        {% csrf_token %}
+        <h3>Username:</h3>
+        <input type="text" name="username">
+        <h3>First Name:</h3>
+        <input type="text" name="firstname">
+        <h3>Last Name:</h3>
+        <input type="text" name="lastname">
+        <h3>Salary:</h3>
+        <input type="text" name="salary">
+        
+    </form>
 </body>
 </html>
